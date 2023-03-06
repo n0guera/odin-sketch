@@ -19,7 +19,7 @@ function grid() {
 
 function userSize() {
     let size = prompt('Enter a new size for the grid (max is 100)');
-    gridContainer.style.cssText = `display: grid; height: 900px; width: 900px; grid-template-columns: repeat(${size}, auto); grid-template-rows: repeat(${size}, auto);`;
+    gridContainer.style.cssText = `display: grid; height: 850px; width: 850px; grid-template-columns: repeat(${size}, auto); grid-template-rows: repeat(${size}, auto);`;
     gridContainer.replaceChildren();
     for (let i = 0; i < (size * size); i++) {
         let pixels = document.createElement('div');
