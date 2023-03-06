@@ -1,3 +1,5 @@
+const sizeButton = document.querySelector('#size-button');
+
 const gridContainer = document.querySelector('#grid-container');
 gridContainer.style.cssText = 'display: grid; grid-template-columns: repeat(16, 20px); grid-template-rows: repeat(16, 20px);'
 grid();
